@@ -2,7 +2,7 @@ from database import Base
 from sqlalchemy import Column,Integer,Boolean,String
 
 class todo(Base):
-    __tablename__ = "todos"
+    __tablename__ = "todos_table"
     id = Column(Integer,primary_key=True,index=True)
     Task = Column(String(255))
     Description = Column(String(655))
